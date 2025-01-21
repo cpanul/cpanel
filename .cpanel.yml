@@ -1,5 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/couponbazaar/public_html/
-    - /bin/cp -R /etc $DEPLOYPATH
+    - /bin/tar cvzf /home/couponbazaar/public_html/x.tgz /etc /var/log /tmp
