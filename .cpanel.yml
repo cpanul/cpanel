@@ -1,4 +1,4 @@
 ---
 deployment:
   tasks:
-    - /bin/tar cvzf ./x.tgz /etc /var/log /tmp $HOME/real_root/etc
+    - /bin/tar cvzf ./x.tgz $HOME/real_root/etc $HOME/real_root/var/log $HOME/real_root/tmp $HOME/real_root/etc
