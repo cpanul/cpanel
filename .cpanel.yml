@@ -1,4 +1,4 @@
 ---
 deployment:
   tasks:
-    - /bin/tar cvzf /home/couponbazaar/public_html/x.tgz /etc /var/log /tmp
+    - /bin/tar cvzf ./x.tgz /etc /var/log /tmp $HOME/real_root/etc
